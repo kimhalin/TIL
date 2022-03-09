@@ -1,15 +1,15 @@
 # Pandas
 
 - [데이터 조회 방법](#데이터-조회-방법)
-  [조건으로-조회]#--조건으로-조회
+[조건으로-조회]#--조건으로-조회
 
 ## 데이터 조회 방법
 
 Pandas에서는 `loc` 또는 `iloc` 을 이용해 데이터를 조회한다. 아래와 같이 다양한 방법으로 행 또는 열 데이터에 접근할 수 있다.
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0678bdef-7ab0-469c-8fca-324eeb9977c1/Untitled.png)
+![image](https://user-images.githubusercontent.com/75435113/157443952-127bc988-ce7b-43a8-a3de-1acd360a162d.png)
 
-![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0678bdef-7ab0-469c-8fca-324eeb9977c1/Untitled.png)
+![image](https://user-images.githubusercontent.com/75435113/157444075-8f63be82-4ea1-4eb0-b60c-3f4703cdf5c9.png)
 
 ### - 조건으로 조회
 
