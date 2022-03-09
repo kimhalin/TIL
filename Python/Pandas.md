@@ -50,3 +50,5 @@ Input에서 윗줄 코드를 실행시키면, 이렇게 ‘디스플레이’에
 위와 같은 코드를 사용해 데이터를 그래프로 시각화할 수 있다. 그래프 종류로는 ‘bar’, ‘pie’, ‘hist’, ‘kde’, ‘box’, ‘scatter’, ‘area’ 가 있다.
 
 x와 y에 원하는 가로축과 세로축 데이터를 설정할 수 있다.
+
+![Untitled](https://user-images.githubusercontent.com/75435113/157444747-29263321-fd94-4fc3-b7f1-c5d568305de9.png)
