@@ -1,8 +1,15 @@
-## 1. 데이터 조회 방법
+# Pandas
+
+[데이터 조회 방법](#데이터-조회-방법)
+  [조건으로 조회](#-조건으로-조회)
+
+## 데이터 조회 방법
 
 Pandas에서는 `loc` 또는 `iloc` 을 이용해 데이터를 조회한다. 아래와 같이 다양한 방법으로 행 또는 열 데이터에 접근할 수 있다.
 
-![image](https://user-images.githubusercontent.com/75435113/157045969-6f4d8c20-5fae-4d5d-814a-5b3c00250cc5.png)
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0678bdef-7ab0-469c-8fca-324eeb9977c1/Untitled.png)
+
+![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/0678bdef-7ab0-469c-8fca-324eeb9977c1/Untitled.png)
 
 ### - 조건으로 조회
 
@@ -24,4 +31,19 @@ iPhone X     True
 
 Input에서 윗줄 코드를 실행시키면, 이렇게 ‘디스플레이’에 해당되는 값이 5보다 큰지 작은지를 판단해 각 행마다 `True` 또는 `False` 를 반환해준다. 
 
-그래서 `df.loc[df['디스플레이'] > 5]` 을 실행시키면, 이 코드는 즉, df.loc[디스플레이 > 5가 True인 행] 이므로 `True` 가 나왔던 행들을 전체 출력해준다.
+그래서 `df.loc[df['디스플레이'] > 5]` 을 실행시키면, 이 코드는 즉, df.loc[디스플레이 > 5가 True인 행] 이므로 `True` 가 나왔던 행들을 전체 출력해준다. 
+
+## 데이터 시각화하기
+
+### Plot
+
+`plot` 은 Pandas의 시리즈나 데이터프레임이 가지고 있는 메서드이다. `matplotlib` 를 내부에서 임포트하여 사용한다.
+
+```python
+시리즈 또는 데이터프레임.plot(kind='원하는 그래프 종류')
+시리즈 또는 데이터프레임.plot(kind='원하는 그래프 종류', x='가로축', y='세로축')
+```
+
+위와 같은 코드를 사용해 데이터를 그래프로 시각화할 수 있다. 그래프 종류로는 ‘bar’, ‘pie’, ‘hist’, ‘kde’, ‘box’, ‘scatter’, ‘area’ 가 있다.
+
+x와 y에 원하는 가로축과 세로축 데이터를 설정할 수 있다.
